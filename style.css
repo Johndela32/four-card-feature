@@ -94,3 +94,16 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+@media screen and (max-width: 375px ) {
+  .card-container{
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+  }
+  .side2{
+   width: 100%;
+  }
+  .top-container{
+    width: 375px;
+  }
+}
